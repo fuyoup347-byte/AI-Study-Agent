@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "微电子学习助手",
+    "slug": "microelectronics-study-agent",
+    "version": "1.0.0",
+    "icon": "./assets/icon.png",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.aistudyagent.microelectronics"
+    },
+    "android": {
+      "package": "com.aistudyagent.microelectronics",
+      "adaptiveIcon": {"foregroundImage": "./assets/icon.png", "backgroundColor": "#101B32"}
+    },
+    "plugins": ["expo-secure-store", "expo-document-picker"]
+  }
+}
